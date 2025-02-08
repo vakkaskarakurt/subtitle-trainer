@@ -1,18 +1,14 @@
 import sys
-import os
 from PyQt6.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, 
                            QHBoxLayout, QPushButton, QLabel, QFileDialog, 
                            QTextEdit, QProgressBar, QMessageBox, QFrame, QSizePolicy)
 from PyQt6.QtCore import Qt, QTimer
 from PyQt6.QtGui import QShortcut, QKeySequence, QFont, QPalette, QColor
 import pysrt
-from deep_translator import GoogleTranslator, MyMemoryTranslator
 from difflib import SequenceMatcher
 import nltk
 import re
 import spacy
-import random
-import time
 from translate import Translator
 
 
